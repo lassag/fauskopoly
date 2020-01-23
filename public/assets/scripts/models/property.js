@@ -6,7 +6,7 @@ export class Property {
     this.baseRent = baseRent
   }
 
-  getGroupColor () {
+  getGroupColor() {
     switch (this.groupNumber) {
       case 1:
         // Brown properties
