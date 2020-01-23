@@ -42,6 +42,18 @@ export class Property {
           break;
     }
   }
+
+  static getInitialProperties() {
+    var properties = [];
+
+    properties.push(new Property("Røslyngveien", 200, 1, 5));
+    properties.push(new Property("Trostveien", 250, 1, 5));
+    properties.push(new Property("Furulia", 375, 8, 60));
+    properties.push(new Property("Furutoppen", 400, 8, 75));
+
+
+    return properties;
+  }
 }
 
 // 40 slots
