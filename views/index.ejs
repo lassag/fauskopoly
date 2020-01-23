@@ -2,9 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Fauskopoly</title>
   </head>
   <body>
-  <h1>Velkommen!</h1>
+  <h1>Fauskopoly</h1>
+
+  <div class="left-column"></div>
+
+  <div class="board-wrapper" id="board-wrapper">
+    <canvas id="game-board"></canvas>
+  </div>
+
+  <div class="right-column"></div>
   </body>
+  <script type="module" src="/scripts/game.js"></script>
+
 </html>
