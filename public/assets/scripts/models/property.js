@@ -8,7 +8,38 @@ export class Property {
 
   getGroupColor () {
     switch (this.groupNumber) {
-      case 1
+      case 1:
+        // Brown properties
+        return "#8e4a37";
+          break;
+      case 2:
+        // Blue properties
+        return "#128df4";
+          break;
+      case 3:
+        // Pink properties
+        return "#f7277f";
+          break;
+      case 4:
+        // Orange properties
+        return "#ef893e";
+          break;
+      case 5:
+        // Red properties
+        return "#fa3232";
+          break;
+      case 6:
+        // Yellow properties
+        return "#fbFe27";
+          break;
+      case 7:
+        // Green properties
+        return "#1a874e";
+          break;
+      case 8:
+        // Purple properties
+        return "#1a4Cab";
+          break;
     }
   }
 }
